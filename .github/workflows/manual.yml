@@ -3,7 +3,7 @@ name: Sedstart Prod
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7/10 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   sedstart-run:
